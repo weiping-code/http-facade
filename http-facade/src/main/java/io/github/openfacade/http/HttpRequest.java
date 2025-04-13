@@ -105,6 +105,13 @@ public class HttpRequest {
         }
     }
 
+    public String getFirstHeaderValue(String name){
+        if(headers.containsKey(name) && !headers.get(name).isEmpty()){
+            return headers.get(name).get(0);
+        }
+        return null;
+    }
+
     @Nullable
     public byte[] body() {
         return body;

@@ -16,7 +16,7 @@
 
 package io.github.openfacade.http.tests;
 
-import io.github.openfacade.http.AliyunAppCodeAuthRequestFilter;
+import io.github.openfacade.http.filter.AliyunAppCodeAuthRequestFilter;
 import io.github.openfacade.http.HttpClient;
 import io.github.openfacade.http.HttpClientConfig;
 import io.github.openfacade.http.HttpClientFactory;

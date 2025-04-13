@@ -14,7 +14,10 @@
  * limitations under the License.
  */
 
-package io.github.openfacade.http;
+package io.github.openfacade.http.filter;
+
+import io.github.openfacade.http.HttpRequest;
+import io.github.openfacade.http.RequestFilter;
 
 import java.util.ArrayList;
 import java.util.List;
